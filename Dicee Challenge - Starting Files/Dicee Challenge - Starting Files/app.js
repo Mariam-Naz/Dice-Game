@@ -1,3 +1,6 @@
+
+function game()
+{
 //player-1
 var randomNumber1=Math.floor(Math.random()*6)+1;
 var image_half1="dice"+randomNumber1+".png";
@@ -22,4 +25,5 @@ else if(randomNumber1<randomNumber2){
 }
 else{
     document.querySelector("h1").innerHTML="Draw!";
+}
 }
